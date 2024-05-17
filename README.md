@@ -51,9 +51,7 @@ MyTree est une application de généalogie développée dans le cadre du projet 
 #### Application mobile (Cordova)
 
 1. Accédez à la racine du projet :
-   ```sh
-   cd .
-   ```
+
 2. Ajoutez la plateforme Android :
    ```sh
    cordova platform add android
@@ -110,7 +108,7 @@ Le développement de MyTree a été un effort collaboratif où chaque membre de 
 ### Authentification des utilisateurs
 
 - **EL BOJADDAINI Chakir** : Conception et développement de l'API d'authentification dans `user.js`, mise en œuvre du modèle utilisateur dans `User.js`, et création des composants frontend pour l'authentification.
-- **BOUYAHIA Elmehdi** : Mise en place des routes d'authentification dans `user.js`, configuration de JWT dans `server.js`, et développement des composants frontend pour l'authentification des utilisateurs.
+- **BOUYAHIA Elmehdi** : Mise en place des routes d'authentification dans `user.js`, configuration de JWT dans `index.js` coté backend, et développement des composants frontend pour l'authentification des utilisateurs.
 - **BENKIRAN Mohamed Taha** : Contribution à la conception de l'API d'authentification, développement du modèle utilisateur dans `User.js`, et création des composants frontend pour l'authentification.
 
 ### Gestion des arbres généalogiques
